@@ -1,8 +1,7 @@
 ﻿using System.Text.Json;
 using Azure.Messaging.EventHubs;
 using Azure.Messaging.EventHubs.Producer;
-using EventGeneratorLibrary;
-using EventGeneratorLibrary.Constants;
+using EventGenerator.Constants;
 using Microsoft.Extensions.Configuration;
 using EventProducer;
 
@@ -23,7 +22,7 @@ async Task StartEventGenerating(Settings settings)
     {
         while (true)
         {
-            var events = EventGenerator.GetSensorEvents(Sensors.FirstSensor, 900);
+            var events = EventGenerator.EventGenerator.GetSensorEvents(Sensors.FirstSensor, 900);
 
             var eventBatch = await producer.CreateBatchAsync();
 

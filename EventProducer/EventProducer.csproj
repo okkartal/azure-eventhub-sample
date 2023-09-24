@@ -16,7 +16,7 @@
     </ItemGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\EventGeneratorLibrary\EventGeneratorLibrary.csproj" />
+        <ProjectReference Include="..\EventGenerator\EventGenerator.csproj" />
     </ItemGroup>
 
     <ItemGroup>

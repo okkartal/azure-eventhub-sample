@@ -1,6 +1,6 @@
-﻿using EventGeneratorLibrary.Models;
+﻿using EventGenerator.Models;
 
-namespace EventGeneratorLibrary;
+namespace EventGenerator;
 
 public static class EventGenerator
 {
