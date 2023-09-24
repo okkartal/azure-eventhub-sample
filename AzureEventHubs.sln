@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventGenerator", "EventGene
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventProducer", "EventProducer\EventProducer.csproj", "{16CFCACA-B0E6-4E56-BC26-D3FA1D629C39}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventConsumerClient", "EventConsumerClient\EventConsumerClient.csproj", "{8FEFFB2F-2F6D-491C-B66D-5E9162BD035C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventConsumer", "EventConsumer\EventConsumer.csproj", "{8FEFFB2F-2F6D-491C-B66D-5E9162BD035C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

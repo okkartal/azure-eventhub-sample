@@ -1,4 +1,4 @@
-﻿using EventConsumerClient;
+﻿using EventConsumer;
 using Microsoft.Extensions.Configuration;
 
 var config = new ConfigurationBuilder()

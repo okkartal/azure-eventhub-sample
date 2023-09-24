@@ -3,7 +3,7 @@ using Azure.Messaging.EventHubs;
 using Azure.Messaging.EventHubs.Processor;
 using Azure.Storage.Blobs;
 
-namespace EventConsumerClient;
+namespace EventConsumer;
 
 public class EventProcessor
 {

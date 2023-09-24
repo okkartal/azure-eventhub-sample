@@ -1,4 +1,4 @@
-namespace EventConsumerClient;
+namespace EventConsumer;
 
 public class Settings
 {
