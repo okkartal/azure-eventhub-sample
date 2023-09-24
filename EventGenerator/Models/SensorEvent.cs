@@ -1,4 +1,4 @@
-﻿namespace EventGeneratorLibrary.Models;
+﻿namespace EventGenerator.Models;
 
 public class SensorEvent
 {

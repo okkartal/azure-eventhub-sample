@@ -1,4 +1,4 @@
-﻿namespace EventGeneratorLibrary.Constants;
+﻿namespace EventGenerator.Constants;
 
 public abstract class Sensors
 {
